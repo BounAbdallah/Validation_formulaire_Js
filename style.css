@@ -2,7 +2,7 @@
 
 
 body{
-    background: #2d5bb9;
+    /* background: #2d5bb9; */
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -22,12 +22,16 @@ form{
     width: 500px;
     height:500px;
     border-radius: 10px;
-    background:  #adc1eb;
+    background:  #f0f0f0;
+    color: #000;
 }
 form input{
     height: 40px;
     border-radius: 10px;
     border: 0px;
+}
+.error{
+    color: red;
 }
 .container_item{
     width: 450px;
@@ -38,6 +42,7 @@ form input{
     font-size: 20px;
     font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
+  color: #000;
 
 
 }
@@ -52,4 +57,6 @@ form input{
     justify-content: center;
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
+    background: #ce0233;
+    color: #f0f0f0;
 }
