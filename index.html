@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <form id="monFormulaire" onsubmit="return validateurDuFormulaire()">
+    <h2>Formulaire de Contact</h2>
+
+        <div class="container_item">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom">
+            <span id="nomError" class="error"></span><br>
+        </div> 
+  
+     <div class="container_item">
+        <label for="email">Email :</label>
+        <input type="text" id="email" name="email">
+        <span id="emailError" class="error"></span><br>
+     </div>
+
+     <div class="container_item">
+        <label for="motDePasse">Mot de passe :</label>
+        <input type="password" id="motDePasse" name="motDePasse">
+        <span id="motDePasseError" class="error"></span><br>
+     </div>
+  
+      <input type="submit" class="btn" value="Soumettre">
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
